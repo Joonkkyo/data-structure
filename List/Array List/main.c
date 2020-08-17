@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	if (pList != NULL)
 	{
 		ArrayListNode node;
-		// ¸®½ºÆ® ÃÊ±âÈ­: 1, 3, 5 Ãß°¡
+		// ë¦¬ìŠ¤íŠ¸ ì´ˆê¸°í™”: 1, 3, 5 ì¶”ê°€
 		node.data = 1;
 		addALElement(pList, 0, node);
 		
@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
 		for (i = 0; i < arrayCount; i++)
 		{
 			pValue = getALElement(pList, i);
-			printf("À§Ä¡[%d]-%d\n", i, pValue->data);
+			printf("Ã€Â§Ã„Â¡[%d]-%d\n", i, pValue->data);
 		}
 
 		deleteArrayList(pList);
